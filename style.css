@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: aliceblue;
+}
+.container{
+    /* background-color: beige; */
+    padding: 7% 15%;
+}
+.heading{
+    /* border: 2px solid green; */
+    font-size: 200%;
+}
+.boxes{
+    /* border: 2px solid rgb(173, 78, 22); */
+    display:flex;
+    justify-content: center;
+    
+}
+.box{
+    border: 5px solid black;
+    margin: 5% 5%;
+    border-radius: 8px;
+
+}
+.btn{
+    padding: 10px 30px;
+    background-color: rgb(7, 0, 68);
+    border: none;
+    color: white;
+    
+}
+.btn:hover{
+    background-color: rgb(9, 0, 94);
+    cursor: pointer;
+
+}
